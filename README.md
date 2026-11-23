@@ -6,7 +6,7 @@ Short link redirect untuk cugud.com, di-deploy ke Vercel.
 |---|---|
 | https://cugud.com/registrasi-natal-rym-2026 | https://forms.gle/7K13oWQxyyGJb8ym6 |
 
-QR code ada di `qr/` (PNG untuk cetak/medsos, SVG untuk desain).
+QR code ada di `qr/` (PNG untuk cetak/medsos, SVG untuk desain, `-logo.png` versi dengan logo RYM di tengah).
 
 ## Tambah/ubah link
 
