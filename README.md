@@ -18,7 +18,6 @@ gambar `og/registrasi-natal-rym-2026.jpg`, bukan preview Google Forms.
 ## Tambah/ubah link
 
 Salin `registrasi-natal-rym-2026.html` jadi `<slug>.html`, ganti URL tujuan dan tag OG,
-push ke `main`, lalu deploy dengan `npx vercel --prod`
-(project Vercel: `cuguds-projects/redirect-rym`). Kalau repo sudah disambungkan di
-Vercel → Settings → Git, push ke `main` langsung deploy otomatis.
+lalu push ke `main`. Vercel (`cuguds-projects/redirect-rym`) tersambung ke repo ini
+dan deploy otomatis setiap push ke `main`.
 `permanent: false` (307) supaya tujuan bisa diganti tanpa tersangkut cache browser.
