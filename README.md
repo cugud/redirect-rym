@@ -18,6 +18,8 @@ gambar `og/registrasi-natal-rym-2026.jpg`, bukan preview Google Forms.
 ## Tambah/ubah link
 
 Salin `registrasi-natal-rym-2026.html` jadi `<slug>.html`, ganti URL tujuan dan tag OG,
-lalu push ke `main`. Vercel (`cuguds-projects/redirect-rym`) tersambung ke repo ini
-dan deploy otomatis setiap push ke `main`.
+lalu `git push`. Vercel (`cuguds-projects/redirect-rym`) tersambung ke fork
+`septalonika/redirect-rym` (akun GitHub yang dipakai login Vercel) dan deploy otomatis
+setiap push ke `main` di fork itu. Remote `origin` di clone lokal diatur push ke dua
+repo sekaligus (`cugud/redirect-rym` dan fork), jadi satu `git push` cukup.
 `permanent: false` (307) supaya tujuan bisa diganti tanpa tersangkut cache browser.
